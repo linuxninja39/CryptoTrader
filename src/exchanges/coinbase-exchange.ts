@@ -1,5 +1,10 @@
 
 
 export class CoinbaseExchange {
-    coinbase: any;
+    coinbase: any = "bla";
+    httpClient: any;
+
+    constructor() {
+        this.httpClient = 1;
+    }
 }

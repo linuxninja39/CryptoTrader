@@ -1,4 +1,5 @@
 {
+  "path": ["src", "test"],
   "rules": {
     "ban": [true,
         ["_", "extend"],

@@ -8,8 +8,13 @@ export class CoinbaseExchangeSpec {
     @Test()
     public exampleTest() {
         const cb = new CoinbaseExchange();
-        Expect(cb.coinbase)
-            .toBeTruthy()
+        Expect(cb.httpClient)
+            .toBeDefined()
         ;
+    }
+
+    @Test()
+    public anotherTest() {
+        Expect(true).toBeTruthy();
     }
 }
